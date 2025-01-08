@@ -1,0 +1,17 @@
+functions:
+**************
+
+-- function is the block of code used to perform specific task.
+-- function can be reuse for n number of times
+
+syntax-- function function_name(optional parameters)
+          {
+             //function body
+            // statements
+          }
+          function_name(arguments);//function calling
+
+function_name= demo
+note:- withput calling function the function body never executed
+
+
