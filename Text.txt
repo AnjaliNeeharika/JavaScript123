@@ -1,9 +1,11 @@
 functions:
 **************
 
--- function is the block of code used to perform specific task.
+-- function is the block of code used to perform specific task assined to it.
 -- function can be reuse for n number of times
+-- functons is non primitive data type
 
+                   (function name must be in lower case)
 syntax-- function function_name(optional parameters)
           {
              //function body
@@ -13,5 +15,8 @@ syntax-- function function_name(optional parameters)
 
 function_name= demo
 note:- withput calling function the function body never executed
+-- 
+
+
 
 
