@@ -15,7 +15,29 @@ syntax-- function function_name(optional parameters)
 
 function_name= demo
 note:- withput calling function the function body never executed
+
+Types of functons:-
+1)Named function
+-- function which is havin a name and invoked with the
+2)anonymus function
+--function which is doesnot have name to declare
+3)function expresion
+-- anonymus function declaratin is assigned to a 
+4)Imediate invoke function(IIFE)
+5)Arrow function::- ()=>{};
+--it is used to consise to normal function syntaxsyntax
+-- arrow function is similar to anonymus function
+6)Hiher order function
+7)Callback function
 -- 
+
+
+note:-
+-- current version of javascript is es14
+-- es6 is stable version of javascript
+--es6
+es-ECMA script
+ECMA- european computer manufacturing asociation
 
 
 
