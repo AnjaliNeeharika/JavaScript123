@@ -28,13 +28,13 @@
 
 //function with parameters
 
-function userdetails(name, age,city){
-    console.log(name);
-    console.log(age);
-    console.log(city);
+// function userdetails(name, age,city){
+//     console.log(name);
+//     console.log(age);
+//     console.log(city);
 
-}
-userdetails("yeswanth",20,"hyderabad");
+// }
+// userdetails("yeswanth",20,"hyderabad");
 
 //anonymus function
 
@@ -43,16 +43,16 @@ userdetails("yeswanth",20,"hyderabad");
 // }()
 
 //function expresion
-let x=function(){
-  console.log("function expresion is executing");
-};
-x();
+// let x=function(){
+//   console.log("function expresion is executing");
+// };
+// x();
 
 
 //IIFE function
-(function(){
-    console.log("IIFE");
-  })();
+// (function(){
+//     console.log("IIFE");
+//   })();
 
 
 //arrow function
@@ -61,17 +61,42 @@ x();
 // }
 // demo();
 
-let n=_=>console.log("arrow function");
-n();
-let c=a=>console.log(a);
-c(5);
-let v=(a,b)=>console.log(a+b);
-v(5,6);
+// let n=_=>console.log("arrow function");
+// n();
+// let c=a=>console.log(a);
+// c(5);
+// let v=(a,b)=>console.log(a+b);
+// v(5,6);
 
-let d=_=>console.log("hi");
-console.log("hello");
-console.log("bye");
-d();
+// let d=_=>console.log("hi");
+// console.log("hello");
+// console.log("bye");
+// d();
+
+function ispalindrome(str){
+    let revstr="";
+    for(let i=str.length-1;i>=0;i--)
+        {
+            //console.log(str(i));
+            revstr+=str[i];
+        }
+        //console.log(revstr);
+        if(str==revstr){
+            console.log("palindrome");
+        }
+        else{
+            console.log("is not a palindrome"); 
+        }
+}
+ispalindrome("sir");
+ispalindrome("madam");
+
+
+function onemoretime(){
+    console.log("not understood tell me one more time");
+
+}
+onemoretime();
 
 
 
