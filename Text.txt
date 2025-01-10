@@ -105,6 +105,7 @@ Types of functons:-
 3)function expresion
 -- anonymus function declaratin is assigned as a value to variable and the same 
 4)Imediate invoke function(IIFE)
+-- once function created immediatly it will called
 5)Arrow function::- ()=>{};
 --it is used to consise to normal function syntaxsyntax
 -- arrow function is similar to anonymus function
@@ -120,6 +121,16 @@ note:-
 es-ECMA script
 ECMA- european computer manufacturing asociation
 
+return statement:-
+- it will return either expression or variables to future use.
 
+implicit return :- returns without using a "return" keyword manually.
+
+explicit return :- returns using "return" keyword manually
+
+
+clouser:- it is a memory created when functions are bundled together and nested 
+to each other by giving accessability inner most function to access the variables
+ of outermost function.
 
 

@@ -99,8 +99,42 @@ function onemoretime(){
 onemoretime();
 
 
+// hiegher oder function and call back function
+function hof(a){  //higher order function
+    return a;
+}
+let s=hof(function(){return "callback function"});//callback function
+console.log(s);
 
+let n= function(){return "callback function"};
+console.log(n());
 
+let users=["m","n","b","k"];
+console.log(users);
+users.map((users)=>{
+    console.log(users);
+})
+
+let u=["m","n","b","k"];
+console.log(u);
+users.map(function(u){
+    console.log(u);
+})
+
+//clouser
+
+var a=10;
+let b=100;
+function x(){
+    var r="vasanth";
+    let company="Google";
+    const sal=123456789;
+    console.log(sal);
+    console.log(a,b);
+    console.log(r);
+    console.log(company);
+}
+x();
 
 
 
