@@ -40,11 +40,23 @@
 function fetchusers(){
    let response= fetch("https://jsonplaceholder.typicode.com/users");
    //console.log(x);
-   response.then(res=>{
+   response.then(result=>{
     //console.log(res)
     //console.log(res.json());
-    return res.json().then(data=>{
+    return result.json().then(data=>{
         console.log(data);
+        let store=document.getElementById("store");
+        console.log(store);
+        data.map(users=>{
+            store.innerHTML+= `
+            <tr>
+            <td>${users.id}</td>
+            <td>${users.name}</td>
+            <td>${users.email}</td> 
+            <td>${users.company.name}</td> 
+            </tr>
+            `
+        })
     })
    })
    .catch(err=>console.log(err))
