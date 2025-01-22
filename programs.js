@@ -19,8 +19,8 @@ for(let i=1;i<=5;i++){
         if(i==j || i+j==6){
         document.writeln("*")
         }else{
-            document.writeln(" ")
+            document.writeln("&nbsp;");
         }
     }
-    document.writeln("<br>");
+    document.writeln("<br>")
 }

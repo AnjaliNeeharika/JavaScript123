@@ -134,3 +134,56 @@ to each other by giving accessability inner most function to access the variable
  of outermost function.
 
 
+
+JSON:- 
+
+- JSON stands for javascript object notation.
+-JSON is a javacript technique used to transfer the data from client to server
+
+syntax:
+
+let a={
+        name:"value",
+        age:25
+        }
+
+json object:
+{
+    "name": "sam",
+    "age" : 25
+}
+
+json methods:-
+1) JSON.stringify():-
+2)Json.parse():-
+
+
+Asynchronous in javascript:-
+to perform multiple tasks at a time.
+
+note:- js is by default "Synchronous(single threaded)".
+mrtods in Asynchronous in javascript 
+1)setTimeout() :-it is web api used to perform async operations with crtain time
+2)setInterval()
+3)promise
+  a)pending state
+  b)fulfilled state
+  c)rejected state
+syntax:-let x= new promise((resolve, reject)=>{});
+To execute the promise we have the instance methods:-
+
+   1)then():- it is used to execute scccess state or fulfilled state
+   2)catch():-it is used to execute rejected state results
+   3)finally():- once promise is settled it will print success or failure states
+
+
+4)async & await
+
+
+Create -POST
+read - GET
+update - PUT
+Dlete - DELETE
+
+
+
